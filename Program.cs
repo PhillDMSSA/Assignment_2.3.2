@@ -24,7 +24,7 @@
                     $"\n\tTip Amount: ${Math.Round(tipCal.TotalTip, 2)}" +
                     $"\n\tTotal Amount: ${Math.Round(tipCal.TotalBillWithTip, 2)}");
 
-                Console.WriteLine("Would you like to complete your purchse? (Y/N)"); //allowing user to complete purchase or change percentage to the desired
+                Console.WriteLine("Would you like to complete your purchase? (Y/N)"); //allowing user to complete purchase or change percentage to the desired
             } 
             
             while (Console.ReadLine().ToUpper() != "Y") ;
